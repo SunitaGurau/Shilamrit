@@ -1,0 +1,368 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+.landingpage
+{
+	
+	width: 100vw;
+}
+.carousel-item{
+    height: 100vh;
+}
+
+.carousel-item img{
+    height: inherit;
+}
+.navbar
+{
+	background: #000000 !important;
+	z-index: 999;
+}
+.nav-item
+{
+	margin-right: 20px;
+}
+.nav-item:last-child
+{
+	margin-right: 0px;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    BORDER-TOP: 0PX SOLID TRANSPARENT;
+    BORDER-BOTTOM: 0PX SOLID TRANSPARENT;
+    opacity: .5;
+    transition: opacity 0.6s ease;
+    border-radius: 100px;
+}
+.carousel-indicators li.active {
+	background:#fff;
+    border-radius: 100px;
+    opacity: 1;
+}
+.icon-holder
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    
+        
+}
+.qualities
+{
+    background: #2B2727;
+}
+.video-section
+{
+    margin: 30px 0px;
+}
+.our-story
+{
+    margin-top: 50px;
+}
+.our-story-main
+{
+    padding: 50px 0px;
+}
+.quality-description
+{
+    padding:30px;   
+}
+
+img.img-shila {
+    width: 100%;
+}
+.certifications-content h6
+{
+    color: orange;
+}
+.certifications-content h4
+{
+    font-weight: bold;
+}
+/*
+.cerification-images img
+{
+    height: 200px;
+    width: 200px;
+}*/
+.benefits-content
+{
+    position: relative;
+}
+.vertical-line
+{
+    width: 50%;
+    height: 2px;
+    background: #ffffff;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+.benefits-headline
+{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.benefits-headline h6
+{
+    color: orange;
+}
+.benefits-headline h4
+{
+    font-weight: bold;
+}
+.benefits-img
+{
+    height: 200px;
+    width: 250px;
+}
+.benefits-column-2
+{
+    margin-top: 40px;
+}
+.benefits-heading
+{
+    font-weight: bold;
+    padding-top: 15px;
+}
+.benefits-1-div2
+{
+    margin-top: 50px;
+}
+#see-all-benefits
+{
+    padding: 10px 20px;
+}
+.benefits-button
+{
+    margin:50px 0px;
+}
+.recipe
+{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/recipe-bg.png);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+} 
+.brass-box-content
+{
+    margin-top: 50px;
+}
+.lokta-box-icon
+{
+    font-size: 20px;
+}
+.lokta-div
+{
+    
+    padding-right: 10px;
+}
+
+.more-information
+{
+    padding: 60px 0px;
+}
+.society
+{
+    background:url(../images/artwork.png);
+    background-size: cover;
+   background-position: center;
+   height: 100vh;
+   position: relative;
+   
+}
+.society-content
+{
+    background:rgba(0,0,0,0.7);
+    position: absolute;
+    left: 60px;
+    bottom: 0px;
+    padding: 30px 20px 20px 20px;
+}
+.society-content a
+{
+    color: orange;
+}
+.greener-environment
+{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/environment-bg.png);
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   height: 100vh;
+}
+.mount-everest-image
+{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
+.banner
+{
+    background:url(../images/caption.png);
+    background-size: cover;
+   background-position: center; 
+   height: 50vh;
+   position: relative;
+}
+.banner-caption
+{
+    position: absolute;
+    left:10%;
+    top: 40%;
+}
+.gallery-heading h6
+{
+    color: orange;
+    margin-bottom: 10px;
+
+}
+.gallery-heading h4
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.videos-button button
+{
+    color:#ffffff;
+    background: #000000;
+    border-color:#ffffff;
+    padding: 3px 22px;
+    font-size: 14px;
+    border-radius: 47px;
+}
+.photos-button button
+{
+    color: #000000;
+    background:#ffffff;
+    border-color:#ffffff;
+    padding: 3px 22px;
+    font-size: 14px;
+    border-radius: 47px;
+
+}
+.button-group
+{
+    margin-bottom: 30px;
+}
+.gallery-container
+{
+    padding: 80px 0px;
+}
+.gallery-group img
+{
+    height: 200px;
+    width: 370px;
+}
+.gallery-pic-1
+{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#view-gallery
+{
+    padding: 0px 30px;
+
+}
+.footer-image img
+{
+    height: 324px;
+    width: 650;
+
+
+}
+.distributer
+{
+    margin-right: 200px;
+}
+.more-detail a
+{
+    color: orange;
+}
+.quality-product  img
+{
+    width: 258px;
+    height: 120px;
+    margin-left: 80px;
+}
+.find-us h6
+{
+    color: orange;
+}
+.disclaimer-heading h6
+{
+    color: orange;
+}
+.facebook-icon
+{
+    font-size: 25px;
+}
+.find-us
+{
+    margin: 50px 0px;
+    
+}
+.footer-end
+{
+    padding-bottom: 50px;
+}
+.testimonials-content img
+{
+    width: 500px;
+    border-radius:40px 0px 0px 40px ;
+}
+.testimonials-content
+{
+    border-radius: 40px;
+    background: #ffffff;
+    color: #000000;
+    /* margin-right: 20px; */
+    
+}
+.testimonials
+{
+    padding: 150px 0px;;
+}
+.testimonials-heading p
+{
+    margin-bottom: 0px!important;
+}
+.testimonials-heading
+{
+    margin-bottom: 50px;
+}
+.see-all-testimonials-button
+{
+    margin-top: 50px;
+}
+#see-all-testimonials
+{
+    padding: 0px 30px;
+}
+
+
+
+/*css for responsive*/
+
+@media only screen and (max-width: 500x)
+{
+    
+}

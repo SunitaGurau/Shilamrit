@@ -1,0 +1,45 @@
+$('#owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    item:2,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    smartSpeed:1500,
+    dotsSpeed:800,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+
+$('#owl-carousel-certification').owlCarousel({
+    loop:true,
+    // margin:10,
+    item:5,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    smartSpeed:1500,
+    dotsSpeed:800,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:5
+        }
+    }
+})
